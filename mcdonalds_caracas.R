@@ -26,4 +26,4 @@ mcdonalds <- data_raw$osm_points %>%
 tmap_mode('view')
 
 tm_shape(mcdonalds) +
-  tm_dots(col = "red", size = .1)
+  tm_dots(col = "red", size = .4)
